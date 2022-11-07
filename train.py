@@ -4,7 +4,7 @@ import tensorflow as tf
 from keras.layers import Flatten, Conv2D, MaxPooling2D # new!
 
 
-data_dir = "MainTrain" # Путь к файлам для обучения
+data_dir = "MainTrain" # Путь к файлам для обучения. Изображения, относящиеся к различным классам в отдельных папках
 img_height = 100
 img_width = 100
 batch_size = 32
